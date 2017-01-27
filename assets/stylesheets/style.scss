@@ -1,4 +1,35 @@
-.h1 {
+$light-blue: #cce6f4;
+$blue: #4ba3c3;
+$dark-blue: #175676;
+$raspberry: #ba324f;
+$red: #d62839;
 
-	color: blue; 
+h1 {
+	margin: 0px;
 }
+
+.btn-danger {
+	background-color: $raspberry;
+	border-radius: 50%;
+}
+
+#sidebar {
+	height:100%;
+	background-color: $light-blue;
+	.row {
+		width: 100%;
+	}
+	.sidebar-inner {
+		padding: 15px;
+		margin: 10px;
+		background-color: $blue;
+		border-radius: 5px;
+		color: $light-blue;
+	}
+}
+
+select {
+	color: $dark-blue;
+}
+
+
