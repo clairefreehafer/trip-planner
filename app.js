@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const nunjucks = require('nunjucks');
 const path = require('path');
 const db = require('./models');
-const router = require('/routes');
+const router = require('./routes');
 
 const app = express();
 
