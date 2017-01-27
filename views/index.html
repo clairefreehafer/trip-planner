@@ -1,8 +1,8 @@
-<html>
-  <head>
-    <title>Trip Planner</title>
-  </head>
-  <body>
+    {% extends 'layout.html' %}
+
+    {% block title %}Your Trip{% endblock %}
+   
+    {% block content %}
     <h1>Your Itinerary</h1>
     <div class="picker">
       <label for="hotels">Hotels</label>
@@ -24,5 +24,6 @@
         {% endfor %}
       </select>
     </div>
-  </body>
-</html>
+
+
+    {% endblock %}
