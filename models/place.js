@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const db = require('../models');
+const db = require('./db');
 const Place = db.define('place', {
 	address: {
 		type: Sequelize.STRING
@@ -14,6 +14,8 @@ const Place = db.define('place', {
 		type: Sequelize.STRING
 	},
 	location: {
-		type: sequelize.ARRAY(Sequelize.FLOAT)
+		type: Sequelize.ARRAY(Sequelize.FLOAT)
 	}
 });
+
+module.exports = Place;
